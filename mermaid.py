@@ -23,10 +23,11 @@ def safe_id(text):
 
 
 output_blocks = []
+output_blocks.append(f'```mermaid\nflowchart LR')
 
 for d1 in tree.keys():
     lines = []
-    lines.append("flowchart LR")
+    lines.append(f'subgraph "{d1}"')
 
     id_d1 = safe_id(d1)
     lines.append(f'    {id_d1}["{d1}"]')
@@ -52,8 +53,10 @@ for d1 in tree.keys():
                 id_d3 = get_or_create_node(d3, d1 + d2 + d3)
                 lines.append(f"    {id_d2} --> {id_d3}")
 
-    block = f"### {d1}\n```mermaid\n" + "\n".join(lines) + "\n```\n"
+    block = '\n'.join(lines) + '\nend'
     output_blocks.append(block)
+
+output_blocks.append(f'```\n')
 
 with open("README.md", "w", encoding="utf-8") as o:
     print("\n".join(output_blocks), file=o)
