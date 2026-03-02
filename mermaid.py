@@ -1,7 +1,7 @@
 import csv
 from collections import defaultdict
 
-csv_path = "./ナイトレイン 夜ボスプール - 一日目.csv"
+csv_path = "./roster_ja-JP.csv"
 
 tree = defaultdict(lambda: defaultdict(set))
 
