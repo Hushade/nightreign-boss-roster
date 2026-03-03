@@ -16,7 +16,7 @@ let orderMap = {
 
 async function loadBossOrder() {
 
-  const res = await fetch("boss_order_ja-JP.json")
+  const res = await fetch("boss_order.json")
   const json = await res.json()
 
   buildOrderMap("day1", json.day1)
@@ -216,7 +216,7 @@ function updateCards(cards, valid) {
 
 async function init() {
 
-  const text = await fetch("roster_ja-JP.csv").then(r => r.text())
+  const text = await fetch("roster.csv").then(r => r.text())
 
   const data = parseCSV(text)
 
