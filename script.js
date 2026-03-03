@@ -1,7 +1,9 @@
 const state = {
+
   day1: null,
   day2: null,
   day3: null
+
 }
 
 let index = {}
@@ -29,8 +31,7 @@ function parseCSV(text) {
 
 function add(map, key, value) {
 
-  if (!map.has(key))
-    map.set(key, new Set())
+  if (!map.has(key)) map.set(key, new Set())
 
   map.get(key).add(value)
 
@@ -69,6 +70,7 @@ function buildIndex(data) {
     idx.all_day1.add(r.day1)
     idx.all_day2.add(r.day2)
     idx.all_day3.add(r.day3)
+
   }
 
   return idx
@@ -82,9 +84,7 @@ function intersect(a, b) {
 
   const out = new Set()
 
-  for (const v of a)
-    if (b.has(v))
-      out.add(v)
+  for (const v of a) if (b.has(v)) out.add(v)
 
   return out
 
@@ -170,10 +170,8 @@ function updateCards(cards, valid) {
 
     const name = card.dataset.name
 
-    if (valid && valid.has(name))
-      card.classList.remove("disabled")
-    else
-      card.classList.add("disabled")
+    if (valid && valid.has(name)) card.classList.remove("disabled")
+    else card.classList.add("disabled")
 
   })
 
