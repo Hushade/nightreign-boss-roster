@@ -1,229 +1,229 @@
 {
-    "bosses": {
-        "demihuman": {
-            "name_ja": "亜人の女王＆剣聖",
-            "day": 1,
-            "order": 0
-        },
-        "elemer": {
-            "name_ja": "鈴玉狩り",
-            "day": 1,
-            "order": 1
-        },
-        "gaping_dragon": {
-            "name_ja": "貪食ドラゴン",
-            "day": 1,
-            "order": 2
-        },
-        "wormface": {
-            "name_ja": "ミミズ顔",
-            "day": 1,
-            "order": 3
-        },
-        "gargoyle": {
-            "name_ja": "英雄のガーゴイル",
-            "day": 1,
-            "order": 4
-        },
-        "freja": {
-            "name_ja": "公のフレイディア",
-            "day": 1,
-            "order": 5
-        },
-        "cavalry": {
-            "name_ja": "夜の騎兵",
-            "day": 1,
-            "order": 6
-        },
-        "smelter": {
-            "name_ja": "熔鉄デーモン",
-            "day": 1,
-            "order": 7
-        },
-        "o-neil": {
-            "name_ja": "戦場の宿将",
-            "day": 1,
-            "order": 8
-        },
-        "centipede": {
-            "name_ja": "百足のデーモン",
-            "day": 1,
-            "order": 9
-        },
-        "tibia": {
-            "name_ja": "ティビアの呼び舟",
-            "day": 1,
-            "order": 10
-        },
-        "tree_spirit": {
-            "name_ja": "爛れた樹霊",
-            "day": 1,
-            "order": 11
-        },
-        "monarch": {
-            "name_ja": "接ぎ木の君主",
-            "day": 1,
-            "order": 12
-        },
-        "revenant": {
-            "name_ja": "王族の幽鬼",
-            "day": 1,
-            "order": 13
-        },
-        "death_knight": {
-            "name_ja": "死の騎士",
-            "day": 1,
-            "order": 14
-        },
-        "bear": {
-            "name_ja": "大赤熊",
-            "day": 1,
-            "order": 15
-        },
-        "demon_duo": {
-            "name_ja": "ふたりのデーモン",
-            "day": 1,
-            "order": 16
-        },
-        "divine_beast": {
-            "name_ja": "呪剣士＆神獣戦士",
-            "day": 1,
-            "order": 17
-        },
-        "fell_omen": {
-            "name_ja": "忌み鬼",
-            "day": 2,
-            "order": 0
-        },
-        "tree_sentinel": {
-            "name_ja": "ツリーガード",
-            "day": 2,
-            "order": 1
-        },
-        "ancient_dragon": {
-            "name_ja": "古竜",
-            "day": 2,
-            "order": 3
-        },
-        "crucible_knight": {
-            "name_ja": "坩堝＆黄金カバ",
-            "day": 2,
-            "order": 4
-        },
-        "niall": {
-            "name_ja": "僻地の宿将",
-            "day": 2,
-            "order": 4
-        },
-        "mole": {
-            "name_ja": "大土竜",
-            "day": 2,
-            "order": 5
-        },
-        "dragonkin": {
-            "name_ja": "ノクスの竜人兵",
-            "day": 2,
-            "order": 6
-        },
-        "draconic_sentinel": {
-            "name_ja": "竜のツリーガード",
-            "day": 2,
-            "order": 7
-        },
-        "fallingstar": {
-            "name_ja": "降る星の成獣",
-            "day": 2,
-            "order": 8
-        },
-        "godskin_duo": {
-            "name_ja": "神肌のふたり",
-            "day": 2,
-            "order": 9
-        },
-        "death_bird": {
-            "name_ja": "死儀礼の鳥",
-            "day": 2,
-            "order": 10
-        },
-        "nameless_king": {
-            "name_ja": "無名の王",
-            "day": 2,
-            "order": 11
-        },
-        "dancer": {
-            "name_ja": "冷たい谷の踊り子",
-            "day": 2,
-            "order": 12
-        },
-        "artorias": {
-            "name_ja": "騎士アルトリウス",
-            "day": 2,
-            "order": 13
-        },
-        "dancing_lion": {
-            "name_ja": "神獣獅子舞",
-            "day": 2,
-            "order": 14
-        },
-        "mohg": {
-            "name_ja": "血の君主",
-            "day": 2,
-            "order": 15
-        },
-        "demon_prince": {
-            "name_ja": "デーモンの王子",
-            "day": 2,
-            "order": 16
-        },
-        "gladius": {
-            "name_ja": "グラディウス",
-            "day": 3,
-            "order": 0
-        },
-        "adel": {
-            "name_ja": "エデレ",
-            "day": 3,
-            "order": 1
-        },
-        "gnoster": {
-            "name_ja": "グノスター",
-            "day": 3,
-            "order": 2
-        },
-        "maris": {
-            "name_ja": "マリス",
-            "day": 3,
-            "order": 3
-        },
-        "libra": {
-            "name_ja": "リブラ",
-            "day": 3,
-            "order": 4
-        },
-        "fulghor": {
-            "name_ja": "フルゴール",
-            "day": 3,
-            "order": 5
-        },
-        "caligo": {
-            "name_ja": "カリゴ",
-            "day": 3,
-            "order": 6
-        },
-        "heolstor": {
-            "name_ja": "ナメレス",
-            "day": 3,
-            "order": 7
-        },
-        "straghess": {
-            "name_ja": "ストラゲス",
-            "day": 3,
-            "order": 8
-        },
-        "harmonia": {
-            "name_ja": "ハルモニア",
-            "day": 3,
-            "order": 9
-        }
+  "bosses": {
+    "demihuman": {
+      "name_ja": "亜人の女王＆剣聖",
+      "day": 1,
+      "order": 0
+    },
+    "elemer": {
+      "name_ja": "鈴玉狩り",
+      "day": 1,
+      "order": 1
+    },
+    "gaping_dragon": {
+      "name_ja": "貪食ドラゴン",
+      "day": 1,
+      "order": 2
+    },
+    "wormface": {
+      "name_ja": "ミミズ顔",
+      "day": 1,
+      "order": 3
+    },
+    "gargoyle": {
+      "name_ja": "英雄のガーゴイル",
+      "day": 1,
+      "order": 4
+    },
+    "freja": {
+      "name_ja": "公のフレイディア",
+      "day": 1,
+      "order": 5
+    },
+    "cavalry": {
+      "name_ja": "夜の騎兵",
+      "day": 1,
+      "order": 6
+    },
+    "smelter": {
+      "name_ja": "熔鉄デーモン",
+      "day": 1,
+      "order": 7
+    },
+    "o-neil": {
+      "name_ja": "戦場の宿将",
+      "day": 1,
+      "order": 8
+    },
+    "centipede": {
+      "name_ja": "百足のデーモン",
+      "day": 1,
+      "order": 9
+    },
+    "tibia": {
+      "name_ja": "ティビアの呼び舟",
+      "day": 1,
+      "order": 10
+    },
+    "tree_spirit": {
+      "name_ja": "爛れた樹霊",
+      "day": 1,
+      "order": 11
+    },
+    "monarch": {
+      "name_ja": "接ぎ木の君主",
+      "day": 1,
+      "order": 12
+    },
+    "revenant": {
+      "name_ja": "王族の幽鬼",
+      "day": 1,
+      "order": 13
+    },
+    "death_knight": {
+      "name_ja": "死の騎士",
+      "day": 1,
+      "order": 14
+    },
+    "bear": {
+      "name_ja": "大赤熊",
+      "day": 1,
+      "order": 15
+    },
+    "demon_duo": {
+      "name_ja": "ふたりのデーモン",
+      "day": 1,
+      "order": 16
+    },
+    "divine_beast": {
+      "name_ja": "呪剣士＆神獣戦士",
+      "day": 1,
+      "order": 17
+    },
+    "fell_omen": {
+      "name_ja": "忌み鬼",
+      "day": 2,
+      "order": 0
+    },
+    "tree_sentinel": {
+      "name_ja": "ツリーガード",
+      "day": 2,
+      "order": 1
+    },
+    "ancient_dragon": {
+      "name_ja": "古竜",
+      "day": 2,
+      "order": 3
+    },
+    "crucible_knight": {
+      "name_ja": "坩堝＆黄金カバ",
+      "day": 2,
+      "order": 4
+    },
+    "niall": {
+      "name_ja": "僻地の宿将",
+      "day": 2,
+      "order": 4
+    },
+    "mole": {
+      "name_ja": "大土竜",
+      "day": 2,
+      "order": 5
+    },
+    "dragonkin": {
+      "name_ja": "ノクスの竜人兵",
+      "day": 2,
+      "order": 6
+    },
+    "draconic_sentinel": {
+      "name_ja": "竜のツリーガード",
+      "day": 2,
+      "order": 7
+    },
+    "fallingstar": {
+      "name_ja": "降る星の成獣",
+      "day": 2,
+      "order": 8
+    },
+    "godskin_duo": {
+      "name_ja": "神肌のふたり",
+      "day": 2,
+      "order": 9
+    },
+    "death_bird": {
+      "name_ja": "死儀礼の鳥",
+      "day": 2,
+      "order": 10
+    },
+    "nameless_king": {
+      "name_ja": "無名の王",
+      "day": 2,
+      "order": 11
+    },
+    "dancer": {
+      "name_ja": "冷たい谷の踊り子",
+      "day": 2,
+      "order": 12
+    },
+    "artorias": {
+      "name_ja": "騎士アルトリウス",
+      "day": 2,
+      "order": 13
+    },
+    "dancing_lion": {
+      "name_ja": "神獣獅子舞",
+      "day": 2,
+      "order": 14
+    },
+    "mohg": {
+      "name_ja": "血の君主",
+      "day": 2,
+      "order": 15
+    },
+    "demon_prince": {
+      "name_ja": "デーモンの王子",
+      "day": 2,
+      "order": 16
+    },
+    "gladius": {
+      "name_ja": "グラディウス",
+      "day": 3,
+      "order": 0
+    },
+    "adel": {
+      "name_ja": "エデレ",
+      "day": 3,
+      "order": 1
+    },
+    "gnoster": {
+      "name_ja": "グノスター",
+      "day": 3,
+      "order": 2
+    },
+    "maris": {
+      "name_ja": "マリス",
+      "day": 3,
+      "order": 3
+    },
+    "libra": {
+      "name_ja": "リブラ",
+      "day": 3,
+      "order": 4
+    },
+    "fulghor": {
+      "name_ja": "フルゴール",
+      "day": 3,
+      "order": 5
+    },
+    "caligo": {
+      "name_ja": "カリゴ",
+      "day": 3,
+      "order": 6
+    },
+    "heolstor": {
+      "name_ja": "ナメレス",
+      "day": 3,
+      "order": 7
+    },
+    "straghess": {
+      "name_ja": "ストラゲス",
+      "day": 3,
+      "order": 8
+    },
+    "harmonia": {
+      "name_ja": "ハルモニア",
+      "day": 3,
+      "order": 9
     }
+  }
 }
