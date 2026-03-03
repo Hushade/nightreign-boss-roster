@@ -69,7 +69,20 @@ function showDay2() {
   const g = document.getElementById("day2Grid")
   g.innerHTML = ""
 
-  if (!state.day1) return
+  // when no first-day is chosen, show all unique second-day options
+  if (!state.day1) {
+    const set = new Set()
+    for (const d1 in tree) {
+      for (const d2 in tree[d1]) {
+        set.add(d2)
+      }
+    }
+    for (const d2 of set) {
+      g.appendChild(card(d2, () => toggleDay2(d2)))
+    }
+    refreshSelection()
+    return
+  }
 
   for (const d in tree[state.day1]) {
     g.appendChild(
@@ -84,14 +97,31 @@ function showDay3() {
   const g = document.getElementById("day3Grid")
   g.innerHTML = ""
 
-  if (!state.day1) return
-
   let list = []
-  if (state.day2) {
-    list = tree[state.day1][state.day2]
+
+  if (state.day1) {
+    if (state.day2) {
+      list = tree[state.day1][state.day2] || []
+    } else {
+      for (const d in tree[state.day1])
+        list = list.concat(tree[state.day1][d])
+      list = [...new Set(list)]
+    }
   } else {
-    for (const d in tree[state.day1])
-      list = list.concat(tree[state.day1][d])
+    // no day1 selected: show all possible day3s, optionally filtered by day2 if chosen
+    if (state.day2) {
+      for (const d1 in tree) {
+        if (tree[d1][state.day2]) {
+          list = list.concat(tree[d1][state.day2])
+        }
+      }
+    } else {
+      for (const d1 in tree) {
+        for (const d2 in tree[d1]) {
+          list = list.concat(tree[d1][d2])
+        }
+      }
+    }
     list = [...new Set(list)]
   }
 
@@ -133,7 +163,7 @@ async function init() {
 
   tree = buildTree(rows)
 
-  showDay1()
+  updateUI()
 }
 
 init()
