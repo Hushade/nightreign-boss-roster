@@ -92,3 +92,18 @@ h2 {
     opacity: 0.25;
     pointer-events: none;
 }
+
+.data-source {
+    position: fixed;
+    right: 12px;
+    bottom: 10px;
+
+    font-size: 11px;
+    line-height: 1.4;
+
+    color: #777;
+    opacity: 0.5;
+
+    text-align: right;
+    pointer-events: none;
+}
