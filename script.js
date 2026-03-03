@@ -12,7 +12,7 @@ let day3Cards = []
 
 function parseCSV(text) {
 
-  const lines = text.split(/\r?\n/).slice(1)
+  const lines = text.split(/\r?\n/)
 
   return lines
     .map(l => l.trim())
