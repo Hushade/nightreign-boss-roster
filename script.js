@@ -1,12 +1,10 @@
 const state = {
-
   day1: null,
   day2: null,
   day3: null
-
 }
 
-let data = []
+let index = {}
 
 let day1Cards = []
 let day2Cards = []
@@ -14,30 +12,81 @@ let day3Cards = []
 
 function parseCSV(text) {
 
-  const lines = text.split(/\r?\n/)
+  const lines = text.split(/\r?\n/).slice(1)
 
   return lines
-    .map(line => line.trim())
-    .filter(line => line.length > 0)
+    .map(l => l.trim())
+    .filter(l => l.length > 0)
     .map(line => {
 
-      const parts = line.split(/\s*,\s*/)
+      const [day1, day2, day3] = line.split(/\s*,\s*/)
 
-      return {
-
-        day1: parts[0],
-        day2: parts[1],
-        day3: parts[2]
-
-      }
+      return { day1, day2, day3 }
 
     })
 
 }
 
-function unique(list, key) {
+function add(map, key, value) {
 
-  return [...new Set(list.map(v => v[key]))]
+  if (!map.has(key))
+    map.set(key, new Set())
+
+  map.get(key).add(value)
+
+}
+
+function buildIndex(data) {
+
+  const idx = {
+
+    day1_to_day2: new Map(),
+    day1_to_day3: new Map(),
+
+    day2_to_day1: new Map(),
+    day2_to_day3: new Map(),
+
+    day3_to_day1: new Map(),
+    day3_to_day2: new Map(),
+
+    all_day1: new Set(),
+    all_day2: new Set(),
+    all_day3: new Set()
+
+  }
+
+  for (const r of data) {
+
+    add(idx.day1_to_day2, r.day1, r.day2)
+    add(idx.day1_to_day3, r.day1, r.day3)
+
+    add(idx.day2_to_day1, r.day2, r.day1)
+    add(idx.day2_to_day3, r.day2, r.day3)
+
+    add(idx.day3_to_day1, r.day3, r.day1)
+    add(idx.day3_to_day2, r.day3, r.day2)
+
+    idx.all_day1.add(r.day1)
+    idx.all_day2.add(r.day2)
+    idx.all_day3.add(r.day3)
+  }
+
+  return idx
+
+}
+
+function intersect(a, b) {
+
+  if (!a) return b
+  if (!b) return a
+
+  const out = new Set()
+
+  for (const v of a)
+    if (b.has(v))
+      out.add(v)
+
+  return out
 
 }
 
@@ -84,23 +133,34 @@ function createCards(container, names, type) {
 
 function update() {
 
-  const filtered = data.filter(row => {
+  let day1Candidates = index.all_day1
+  let day2Candidates = index.all_day2
+  let day3Candidates = index.all_day3
 
-    if (state.day1 && row.day1 !== state.day1) return false
-    if (state.day2 && row.day2 !== state.day2) return false
-    if (state.day3 && row.day3 !== state.day3) return false
+  if (state.day1) {
 
-    return true
+    day2Candidates = intersect(day2Candidates, index.day1_to_day2.get(state.day1))
+    day3Candidates = intersect(day3Candidates, index.day1_to_day3.get(state.day1))
 
-  })
+  }
 
-  const validDay1 = new Set(filtered.map(r => r.day1))
-  const validDay2 = new Set(filtered.map(r => r.day2))
-  const validDay3 = new Set(filtered.map(r => r.day3))
+  if (state.day2) {
 
-  updateCards(day1Cards, validDay1)
-  updateCards(day2Cards, validDay2)
-  updateCards(day3Cards, validDay3)
+    day1Candidates = intersect(day1Candidates, index.day2_to_day1.get(state.day2))
+    day3Candidates = intersect(day3Candidates, index.day2_to_day3.get(state.day2))
+
+  }
+
+  if (state.day3) {
+
+    day1Candidates = intersect(day1Candidates, index.day3_to_day1.get(state.day3))
+    day2Candidates = intersect(day2Candidates, index.day3_to_day2.get(state.day3))
+
+  }
+
+  updateCards(day1Cards, day1Candidates)
+  updateCards(day2Cards, day2Candidates)
+  updateCards(day3Cards, day3Candidates)
 
 }
 
@@ -110,15 +170,10 @@ function updateCards(cards, valid) {
 
     const name = card.dataset.name
 
-    if (valid.has(name)) {
-
+    if (valid && valid.has(name))
       card.classList.remove("disabled")
-
-    } else {
-
+    else
       card.classList.add("disabled")
-
-    }
 
   })
 
@@ -128,11 +183,13 @@ async function init() {
 
   const text = await fetch("roster_ja-JP.csv").then(r => r.text())
 
-  data = parseCSV(text)
+  const data = parseCSV(text)
 
-  const day1List = unique(data, "day1").sort()
-  const day2List = unique(data, "day2").sort()
-  const day3List = unique(data, "day3").sort()
+  index = buildIndex(data)
+
+  const day1List = [...index.all_day1].sort()
+  const day2List = [...index.all_day2].sort()
+  const day3List = [...index.all_day3].sort()
 
   const day1Div = document.getElementById("day1")
   const day2Div = document.getElementById("day2")
