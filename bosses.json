@@ -1,7 +1,7 @@
 {
     "bosses": {
         "demihuman": {
-            "name_ja": "亜人の女王＆亜人の剣聖",
+            "name_ja": "亜人の女王＆剣聖",
             "day": 1,
             "order": 0
         },
@@ -31,7 +31,7 @@
             "order": 5
         },
         "cavalry": {
-            "name_ja": "夜の騎兵：グレイブ＆夜の騎兵：フレイル",
+            "name_ja": "夜の騎兵",
             "day": 1,
             "order": 6
         },
@@ -51,7 +51,7 @@
             "order": 9
         },
         "tibia": {
-            "name_ja": "ティビアの呼び舟＆死に生きる者たち",
+            "name_ja": "ティビアの呼び舟",
             "day": 1,
             "order": 10
         },
@@ -75,18 +75,18 @@
             "day": 1,
             "order": 14
         },
-        "demon_duo": {
-            "name_ja": "傷ついたデーモン＆うろ底のデーモン",
+        "bear": {
+            "name_ja": "大赤熊",
             "day": 1,
             "order": 15
         },
-        "divine_beast": {
-            "name_ja": "呪剣士＆神獣の戦士",
+        "demon_duo": {
+            "name_ja": "ふたりのデーモン",
             "day": 1,
             "order": 16
         },
-        "bear": {
-            "name_ja": "大赤熊",
+        "divine_beast": {
+            "name_ja": "呪剣士＆神獣戦士",
             "day": 1,
             "order": 17
         },
@@ -96,7 +96,7 @@
             "order": 0
         },
         "tree_sentinel": {
-            "name_ja": "ツリーガード＆王都の騎兵",
+            "name_ja": "ツリーガード",
             "day": 2,
             "order": 1
         },
@@ -106,7 +106,7 @@
             "order": 3
         },
         "crucible_knight": {
-            "name_ja": "坩堝の騎士＆黄金カバ",
+            "name_ja": "坩堝＆黄金カバ",
             "day": 2,
             "order": 4
         },
@@ -126,7 +126,7 @@
             "order": 6
         },
         "draconic_sentinel": {
-            "name_ja": "竜のツリーガード＆王都の騎兵",
+            "name_ja": "竜のツリーガード",
             "day": 2,
             "order": 7
         },
@@ -136,7 +136,7 @@
             "order": 8
         },
         "godskin_duo": {
-            "name_ja": "神肌の貴種＆神肌の使徒",
+            "name_ja": "神肌のふたり",
             "day": 2,
             "order": 9
         },
@@ -176,52 +176,52 @@
             "order": 16
         },
         "gladius": {
-            "name_ja": "夜の獣、グラディウス",
+            "name_ja": "グラディウス",
             "day": 3,
             "order": 0
         },
         "adel": {
-            "name_ja": "夜の爵、エデレ",
+            "name_ja": "エデレ",
             "day": 3,
             "order": 1
         },
         "gnoster": {
-            "name_ja": "夜の識、グノスター",
+            "name_ja": "グノスター",
             "day": 3,
             "order": 2
         },
         "maris": {
-            "name_ja": "深海の夜、マリス",
+            "name_ja": "マリス",
             "day": 3,
             "order": 3
         },
         "libra": {
-            "name_ja": "夜の魔、リブラ",
+            "name_ja": "リブラ",
             "day": 3,
             "order": 4
         },
         "fulghor": {
-            "name_ja": "夜光の騎士、フルゴール",
+            "name_ja": "フルゴール",
             "day": 3,
             "order": 5
         },
         "caligo": {
-            "name_ja": "夜の霞、カリゴ",
+            "name_ja": "カリゴ",
             "day": 3,
             "order": 6
         },
         "heolstor": {
-            "name_ja": "夜の王、ナメレス",
+            "name_ja": "ナメレス",
             "day": 3,
             "order": 7
         },
         "straghess": {
-            "name_ja": "反逆のストラゲス",
+            "name_ja": "ストラゲス",
             "day": 3,
             "order": 8
         },
         "harmonia": {
-            "name_ja": "英雄武器の娘たち、ハルモニア",
+            "name_ja": "ハルモニア",
             "day": 3,
             "order": 9
         }
