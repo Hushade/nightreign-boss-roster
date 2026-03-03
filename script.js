@@ -6,6 +6,43 @@ const state = {
 
 }
 
+let orderMap = {
+
+  day1: new Map(),
+  day2: new Map(),
+  day3: new Map()
+
+}
+
+async function loadBossOrder() {
+
+  const res = await fetch("boss_order_ja-JP.json")
+  const json = await res.json()
+
+  buildOrderMap("day1", json.day1)
+  buildOrderMap("day2", json.day2)
+  buildOrderMap("day3", json.day3)
+
+}
+
+function buildOrderMap(day, list) {
+
+  list.forEach((name, index) => { orderMap[day].set(name.trim(), index) })
+
+}
+
+function sortBossList(day, list) {
+
+  const map = orderMap[day]
+
+  return list.sort((a, b) => {
+    const ai = map.get(a) ?? Number.MAX_SAFE_INTEGER
+    const bi = map.get(b) ?? Number.MAX_SAFE_INTEGER
+    return ai - bi
+  })
+
+}
+
 let index = {}
 
 let day1Cards = []
@@ -185,9 +222,9 @@ async function init() {
 
   index = buildIndex(data)
 
-  const day1List = [...index.all_day1].sort()
-  const day2List = [...index.all_day2].sort()
-  const day3List = [...index.all_day3].sort()
+  const day1List = sortBossList("day1", [...index.all_day1])
+  const day2List = sortBossList("day2", [...index.all_day2])
+  const day3List = sortBossList("day3", [...index.all_day3])
 
   const day1Div = document.getElementById("day1")
   const day2Div = document.getElementById("day2")
