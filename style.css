@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: #0f0f0f;
     color: #ddd;
@@ -6,6 +10,7 @@ body {
 }
 
 header {
+    width: 100%;
     text-align: center;
     padding: 8px;
     background: #181818;
@@ -14,11 +19,25 @@ header {
 .layout {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 24px;
 
-    height: calc(100vh - 60px);
+    max-width: 1200px;
+    margin: auto;
 
-    padding: 10px;
+    padding: 16px;
+}
+
+@media (max-width:768px) {
+    .layout {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
 }
 
 section {
