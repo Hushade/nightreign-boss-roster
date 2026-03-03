@@ -1,47 +1,11 @@
 const state = {
-
   day1: null,
   day2: null,
   day3: null
-
 }
 
-let orderMap = {
-
-  day1: new Map(),
-  day2: new Map(),
-  day3: new Map()
-
-}
-
-async function loadBossOrder() {
-
-  const res = await fetch("boss_order.json")
-  const json = await res.json()
-
-  buildOrderMap("day1", json.day1)
-  buildOrderMap("day2", json.day2)
-  buildOrderMap("day3", json.day3)
-
-}
-
-function buildOrderMap(day, list) {
-
-  list.forEach((name, index) => { orderMap[day].set(name.trim(), index) })
-
-}
-
-function sortBossList(day, list) {
-
-  const map = orderMap[day]
-
-  return list.sort((a, b) => {
-    const ai = map.get(a) ?? Number.MAX_SAFE_INTEGER
-    const bi = map.get(b) ?? Number.MAX_SAFE_INTEGER
-    return ai - bi
-  })
-
-}
+let bosses = {}
+let roster = []
 
 let index = {}
 
@@ -49,32 +13,45 @@ let day1Cards = []
 let day2Cards = []
 let day3Cards = []
 
-function parseCSV(text) {
+async function loadData() {
 
-  const lines = text.split(/\r?\n/)
+  const bossesData = await fetch("./bosses.json").then(r => r.json())
+  const rosterData = await fetch("./roster.json").then(r => r.json())
 
-  return lines
-    .map(l => l.trim())
-    .filter(l => l.length > 0)
-    .map(line => {
+  bosses = bossesData.bosses
+  roster = rosterData.roster
 
-      const [day1, day2, day3] = line.split(/\s*,\s*/)
+}
 
-      return { day1, day2, day3 }
+function getBossList(day) {
 
-    })
+  const list = []
+
+  for (const id in bosses) {
+
+    if (bosses[id].day === day)
+      list.push(id)
+
+  }
+
+  return list.sort((a, b) => {
+
+    return bosses[a].order - bosses[b].order
+
+  })
 
 }
 
 function add(map, key, value) {
 
-  if (!map.has(key)) map.set(key, new Set())
+  if (!map.has(key))
+    map.set(key, new Set())
 
   map.get(key).add(value)
 
 }
 
-function buildIndex(data) {
+function buildIndex() {
 
   const idx = {
 
@@ -93,7 +70,7 @@ function buildIndex(data) {
 
   }
 
-  for (const r of data) {
+  for (const r of roster) {
 
     add(idx.day1_to_day2, r.day1, r.day2)
     add(idx.day1_to_day3, r.day1, r.day3)
@@ -121,34 +98,36 @@ function intersect(a, b) {
 
   const out = new Set()
 
-  for (const v of a) if (b.has(v)) out.add(v)
+  for (const v of a)
+    if (b.has(v))
+      out.add(v)
 
   return out
 
 }
 
-function createCards(container, names, type) {
+function createCards(container, list, type) {
 
-  names.forEach(name => {
+  list.forEach(id => {
 
     const card = document.createElement("div")
 
     card.className = "card"
-    card.textContent = name
+    card.textContent = bosses[id].name_ja
 
-    card.dataset.name = name
+    card.dataset.id = id
     card.dataset.type = type
 
     card.onclick = () => {
 
-      if (state[type] === name) {
+      if (state[type] === id) {
 
         state[type] = null
         card.classList.remove("selected")
 
       } else {
 
-        state[type] = name
+        state[type] = id
 
         document
           .querySelectorAll(`[data-type="${type}"]`)
@@ -163,6 +142,21 @@ function createCards(container, names, type) {
     }
 
     container.appendChild(card)
+
+  })
+
+}
+
+function updateCards(cards, valid) {
+
+  cards.forEach(card => {
+
+    const id = card.dataset.id
+
+    if (valid && valid.has(id))
+      card.classList.remove("disabled")
+    else
+      card.classList.add("disabled")
 
   })
 
@@ -201,30 +195,16 @@ function update() {
 
 }
 
-function updateCards(cards, valid) {
-
-  cards.forEach(card => {
-
-    const name = card.dataset.name
-
-    if (valid && valid.has(name)) card.classList.remove("disabled")
-    else card.classList.add("disabled")
-
-  })
-
-}
 
 async function init() {
 
-  const text = await fetch("roster.csv").then(r => r.text())
+  await loadData()
 
-  const data = parseCSV(text)
+  index = buildIndex()
 
-  index = buildIndex(data)
-
-  const day1List = sortBossList("day1", [...index.all_day1])
-  const day2List = sortBossList("day2", [...index.all_day2])
-  const day3List = sortBossList("day3", [...index.all_day3])
+  const day1List = getBossList(1)
+  const day2List = getBossList(2)
+  const day3List = getBossList(3)
 
   const day1Div = document.getElementById("day1")
   const day2Div = document.getElementById("day2")
