@@ -1,169 +1,153 @@
-const state = { day1: null, day2: null }
+const state = {
 
-let tree = null
+  day1: null,
+  day2: null,
+  day3: null
 
-async function loadCSV(path) {
-  let text = await fetch(path).then(r => r.text())
+}
 
-  text = text.replace(/^\uFEFF/, '')
+let data = []
+
+let day1Cards = []
+let day2Cards = []
+let day3Cards = []
+
+function parseCSV(text) {
+
   const lines = text.split(/\r?\n/)
-  const rows = []
-  for (const line of lines) {
-    if (!line.trim()) continue
-    const c = line.split(",")
-    if (c.length < 3) continue
-    rows.push({
-      day1: c[0], day2: c[1], day3: c[2]
+
+  return lines
+    .map(line => line.trim())
+    .filter(line => line.length > 0)
+    .map(line => {
+
+      const parts = line.split(/\s*,\s*/)
+
+      return {
+
+        day1: parts[0],
+        day2: parts[1],
+        day3: parts[2]
+
+      }
+
     })
-  }
 
-  return rows
 }
 
-function buildTree(rows) {
-  const map = {}
-  for (const r of rows) {
-    if (!map[r.day1])
-      map[r.day1] = {}
-    if (!map[r.day1][r.day2])
-      map[r.day1][r.day2] = []
+function unique(list, key) {
 
-    map[r.day1][r.day2].push(r.day3)
-  }
+  return [...new Set(list.map(v => v[key]))]
 
-  return map
 }
 
-function card(text, click) {
-  const d = document.createElement("div")
-  d.className = "card"
-  d.textContent = text
+function createCards(container, names, type) {
 
-  d.onclick = click
+  names.forEach(name => {
 
-  return d
-}
+    const card = document.createElement("div")
 
-function refreshSelection() {
-  document.querySelectorAll("#day1Grid .card").forEach(c => {
-    c.classList.toggle("selected", c.textContent === state.day1)
+    card.className = "card"
+    card.textContent = name
+
+    card.dataset.name = name
+    card.dataset.type = type
+
+    card.onclick = () => {
+
+      if (state[type] === name) {
+
+        state[type] = null
+        card.classList.remove("selected")
+
+      } else {
+
+        state[type] = name
+
+        document
+          .querySelectorAll(`[data-type="${type}"]`)
+          .forEach(c => c.classList.remove("selected"))
+
+        card.classList.add("selected")
+
+      }
+
+      update()
+
+    }
+
+    container.appendChild(card)
+
   })
-  document.querySelectorAll("#day2Grid .card").forEach(c => {
-    c.classList.toggle("selected", c.textContent === state.day2)
+
+}
+
+function update() {
+
+  const filtered = data.filter(row => {
+
+    if (state.day1 && row.day1 !== state.day1) return false
+    if (state.day2 && row.day2 !== state.day2) return false
+    if (state.day3 && row.day3 !== state.day3) return false
+
+    return true
+
   })
+
+  const validDay1 = new Set(filtered.map(r => r.day1))
+  const validDay2 = new Set(filtered.map(r => r.day2))
+  const validDay3 = new Set(filtered.map(r => r.day3))
+
+  updateCards(day1Cards, validDay1)
+  updateCards(day2Cards, validDay2)
+  updateCards(day3Cards, validDay3)
+
 }
 
-function showDay1() {
-  const g = document.getElementById("day1Grid")
-  g.innerHTML = ""
-  for (const b in tree) {
-    g.appendChild(
-      card(b, () => toggleDay1(b))
-    )
-  }
+function updateCards(cards, valid) {
 
-  refreshSelection()
-}
+  cards.forEach(card => {
 
-function showDay2() {
-  const g = document.getElementById("day2Grid")
-  g.innerHTML = ""
+    const name = card.dataset.name
 
-  // when no first-day is chosen, show all unique second-day options
-  if (!state.day1) {
-    const set = new Set()
-    for (const d1 in tree) {
-      for (const d2 in tree[d1]) {
-        set.add(d2)
-      }
-    }
-    for (const d2 of set) {
-      g.appendChild(card(d2, () => toggleDay2(d2)))
-    }
-    refreshSelection()
-    return
-  }
+    if (valid.has(name)) {
 
-  for (const d in tree[state.day1]) {
-    g.appendChild(
-      card(d, () => toggleDay2(d))
-    )
-  }
+      card.classList.remove("disabled")
 
-  refreshSelection()
-}
-
-function showDay3() {
-  const g = document.getElementById("day3Grid")
-  g.innerHTML = ""
-
-  let list = []
-
-  if (state.day1) {
-    if (state.day2) {
-      list = tree[state.day1][state.day2] || []
     } else {
-      for (const d in tree[state.day1])
-        list = list.concat(tree[state.day1][d])
-      list = [...new Set(list)]
+
+      card.classList.add("disabled")
+
     }
-  } else {
-    // no day1 selected: show all possible day3s, optionally filtered by day2 if chosen
-    if (state.day2) {
-      for (const d1 in tree) {
-        if (tree[d1][state.day2]) {
-          list = list.concat(tree[d1][state.day2])
-        }
-      }
-    } else {
-      for (const d1 in tree) {
-        for (const d2 in tree[d1]) {
-          list = list.concat(tree[d1][d2])
-        }
-      }
-    }
-    list = [...new Set(list)]
-  }
 
-  for (const n of list) {
-    g.appendChild(card(n, null))
-  }
-}
+  })
 
-function toggleDay1(b) {
-  if (state.day1 === b) {
-    state.day1 = null
-    state.day2 = null
-  } else {
-    state.day1 = b
-    state.day2 = null
-  }
-
-  updateUI()
-}
-
-function toggleDay2(d) {
-  if (state.day2 === d) {
-    state.day2 = null
-  } else {
-    state.day2 = d
-  }
-
-  updateUI()
-}
-
-function updateUI() {
-  showDay1()
-  showDay2()
-  showDay3()
 }
 
 async function init() {
-  const rows = await loadCSV("roster_ja-JP.csv")
 
-  tree = buildTree(rows)
+  const text = await fetch("roster_ja-JP.csv").then(r => r.text())
 
-  updateUI()
+  data = parseCSV(text)
+
+  const day1List = unique(data, "day1").sort()
+  const day2List = unique(data, "day2").sort()
+  const day3List = unique(data, "day3").sort()
+
+  const day1Div = document.getElementById("day1")
+  const day2Div = document.getElementById("day2")
+  const day3Div = document.getElementById("day3")
+
+  createCards(day1Div, day1List, "day1")
+  createCards(day2Div, day2List, "day2")
+  createCards(day3Div, day3List, "day3")
+
+  day1Cards = [...day1Div.children]
+  day2Cards = [...day2Div.children]
+  day3Cards = [...day3Div.children]
+
+  update()
+
 }
 
 init()
