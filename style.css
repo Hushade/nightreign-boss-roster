@@ -25,10 +25,8 @@ header {
     display: grid;
     grid-template-columns: 1fr;
     gap: 24px;
-
     max-width: 1200px;
     margin: auto;
-
     padding: 16px;
 }
 
@@ -66,15 +64,10 @@ h2 {
 .card {
     background: #1d1d1d;
     border: 1px solid #444;
-
     padding: 6px;
-
     text-align: center;
-
     cursor: pointer;
-
     user-select: none;
-
     transition: 0.15s;
 }
 
@@ -102,13 +95,10 @@ h2 {
     position: fixed;
     right: 12px;
     bottom: 10px;
-
     font-size: 11px;
     line-height: 1.4;
-
     color: #777;
     opacity: 0.5;
-
     text-align: right;
     pointer-events: none;
 }
