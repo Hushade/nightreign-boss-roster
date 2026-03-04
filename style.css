@@ -23,7 +23,7 @@ header {
 
 .layout {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 24px;
 
     max-width: 1200px;
@@ -32,15 +32,22 @@ header {
     padding: 16px;
 }
 
-@media (max-width:768px) {
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+    overflow: auto;
+    padding: 2px;
+}
+
+@media (hover:hover) and (min-width:768px) {
     .layout {
-        grid-template-columns: 1fr;
         gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
         gap: 10px;
     }
 }
@@ -54,14 +61,6 @@ h2 {
     margin: 0 0 6px 0;
     font-size: 16px;
     text-align: center;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-    gap: 6px;
-    overflow: auto;
-    padding: 2px;
 }
 
 .card {
@@ -79,7 +78,13 @@ h2 {
     transition: 0.15s;
 }
 
-.card:hover {
+@media (hover:hover) {
+    .card:hover {
+        background: #2a2a2a;
+    }
+}
+
+.card:active {
     background: #2a2a2a;
 }
 
