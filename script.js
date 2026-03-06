@@ -25,20 +25,7 @@ async function loadData() {
 
 function getBossList(day) {
 
-  const list = []
-
-  for (const id in bosses) {
-
-    if (bosses[id].day === day)
-      list.push(id)
-
-  }
-
-  return list.sort((a, b) => {
-
-    return bosses[a].order - bosses[b].order
-
-  })
+  return Object.keys(bosses[`day${day}`])
 
 }
 
@@ -72,18 +59,20 @@ function buildIndex() {
 
   for (const r of roster) {
 
-    add(idx.day1_to_day2, r.day1, r.day2)
-    add(idx.day1_to_day3, r.day1, r.day3)
+    const [d1, d2, d3] = r
 
-    add(idx.day2_to_day1, r.day2, r.day1)
-    add(idx.day2_to_day3, r.day2, r.day3)
+    add(idx.day1_to_day2, d1, d2)
+    add(idx.day1_to_day3, d1, d3)
 
-    add(idx.day3_to_day1, r.day3, r.day1)
-    add(idx.day3_to_day2, r.day3, r.day2)
+    add(idx.day2_to_day1, d2, d1)
+    add(idx.day2_to_day3, d2, d3)
 
-    idx.all_day1.add(r.day1)
-    idx.all_day2.add(r.day2)
-    idx.all_day3.add(r.day3)
+    add(idx.day3_to_day1, d3, d1)
+    add(idx.day3_to_day2, d3, d2)
+
+    idx.all_day1.add(d1)
+    idx.all_day2.add(d2)
+    idx.all_day3.add(d3)
 
   }
 
@@ -113,7 +102,7 @@ function createCards(container, list, type) {
     const card = document.createElement("div")
 
     card.className = "card"
-    card.textContent = bosses[id].name_ja
+    card.textContent = bosses[type][id].name_ja
 
     card.dataset.id = id
     card.dataset.type = type

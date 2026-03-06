@@ -1,1414 +1,1414 @@
 {
   "roster": [
-    {
-      "day1": "demihuman",
-      "day2": "tree_sentinel",
-      "day3": "gladius"
-    },
-    {
-      "day1": "demihuman",
-      "day2": "fell_omen",
-      "day3": "gladius"
-    },
-    {
-      "day1": "elemer",
-      "day2": "tree_sentinel",
-      "day3": "gladius"
-    },
-    {
-      "day1": "elemer",
-      "day2": "fell_omen",
-      "day3": "gladius"
-    },
-    {
-      "day1": "gaping_dragon",
-      "day2": "ancient_dragon",
-      "day3": "adel"
-    },
-    {
-      "day1": "gaping_dragon",
-      "day2": "crucible_knight",
-      "day3": "adel"
-    },
-    {
-      "day1": "gaping_dragon",
-      "day2": "niall",
-      "day3": "adel"
-    },
-    {
-      "day1": "wormface",
-      "day2": "ancient_dragon",
-      "day3": "adel"
-    },
-    {
-      "day1": "wormface",
-      "day2": "crucible_knight",
-      "day3": "adel"
-    },
-    {
-      "day1": "wormface",
-      "day2": "niall",
-      "day3": "adel"
-    },
-    {
-      "day1": "cavalry",
-      "day2": "ancient_dragon",
-      "day3": "adel"
-    },
-    {
-      "day1": "cavalry",
-      "day2": "crucible_knight",
-      "day3": "adel"
-    },
-    {
-      "day1": "cavalry",
-      "day2": "niall",
-      "day3": "adel"
-    },
-    {
-      "day1": "gargoyle",
-      "day2": "ancient_dragon",
-      "day3": "adel"
-    },
-    {
-      "day1": "gargoyle",
-      "day2": "crucible_knight",
-      "day3": "adel"
-    },
-    {
-      "day1": "gargoyle",
-      "day2": "niall",
-      "day3": "adel"
-    },
-    {
-      "day1": "freja",
-      "day2": "ancient_dragon",
-      "day3": "adel"
-    },
-    {
-      "day1": "freja",
-      "day2": "crucible_knight",
-      "day3": "adel"
-    },
-    {
-      "day1": "freja",
-      "day2": "niall",
-      "day3": "adel"
-    },
-    {
-      "day1": "centipede",
-      "day2": "dragonkin",
-      "day3": "gnoster"
-    },
-    {
-      "day1": "centipede",
-      "day2": "draconic_sentinel",
-      "day3": "gnoster"
-    },
-    {
-      "day1": "centipede",
-      "day2": "mole",
-      "day3": "gnoster"
-    },
-    {
-      "day1": "smelter",
-      "day2": "dragonkin",
-      "day3": "gnoster"
-    },
-    {
-      "day1": "smelter",
-      "day2": "draconic_sentinel",
-      "day3": "gnoster"
-    },
-    {
-      "day1": "smelter",
-      "day2": "mole",
-      "day3": "gnoster"
-    },
-    {
-      "day1": "o-neil",
-      "day2": "dragonkin",
-      "day3": "gnoster"
-    },
-    {
-      "day1": "o-neil",
-      "day2": "draconic_sentinel",
-      "day3": "gnoster"
-    },
-    {
-      "day1": "o-neil",
-      "day2": "mole",
-      "day3": "gnoster"
-    },
-    {
-      "day1": "tibia",
-      "day2": "dragonkin",
-      "day3": "gnoster"
-    },
-    {
-      "day1": "tibia",
-      "day2": "draconic_sentinel",
-      "day3": "gnoster"
-    },
-    {
-      "day1": "tibia",
-      "day2": "mole",
-      "day3": "gnoster"
-    },
-    {
-      "day1": "tree_spirit",
-      "day2": "dragonkin",
-      "day3": "gnoster"
-    },
-    {
-      "day1": "tree_spirit",
-      "day2": "draconic_sentinel",
-      "day3": "gnoster"
-    },
-    {
-      "day1": "tree_spirit",
-      "day2": "mole",
-      "day3": "gnoster"
-    },
-    {
-      "day1": "gaping_dragon",
-      "day2": "tree_sentinel",
-      "day3": "maris"
-    },
-    {
-      "day1": "gaping_dragon",
-      "day2": "godskin_duo",
-      "day3": "maris"
-    },
-    {
-      "day1": "gaping_dragon",
-      "day2": "fallingstar",
-      "day3": "maris"
-    },
-    {
-      "day1": "wormface",
-      "day2": "tree_sentinel",
-      "day3": "maris"
-    },
-    {
-      "day1": "wormface",
-      "day2": "godskin_duo",
-      "day3": "maris"
-    },
-    {
-      "day1": "wormface",
-      "day2": "fallingstar",
-      "day3": "maris"
-    },
-    {
-      "day1": "monarch",
-      "day2": "tree_sentinel",
-      "day3": "maris"
-    },
-    {
-      "day1": "monarch",
-      "day2": "godskin_duo",
-      "day3": "maris"
-    },
-    {
-      "day1": "monarch",
-      "day2": "fallingstar",
-      "day3": "maris"
-    },
-    {
-      "day1": "smelter",
-      "day2": "tree_sentinel",
-      "day3": "maris"
-    },
-    {
-      "day1": "smelter",
-      "day2": "godskin_duo",
-      "day3": "maris"
-    },
-    {
-      "day1": "smelter",
-      "day2": "fallingstar",
-      "day3": "maris"
-    },
-    {
-      "day1": "gargoyle",
-      "day2": "tree_sentinel",
-      "day3": "maris"
-    },
-    {
-      "day1": "gargoyle",
-      "day2": "godskin_duo",
-      "day3": "maris"
-    },
-    {
-      "day1": "gargoyle",
-      "day2": "fallingstar",
-      "day3": "maris"
-    },
-    {
-      "day1": "tibia",
-      "day2": "crucible_knight",
-      "day3": "libra"
-    },
-    {
-      "day1": "tibia",
-      "day2": "death_bird",
-      "day3": "libra"
-    },
-    {
-      "day1": "tibia",
-      "day2": "godskin_duo",
-      "day3": "libra"
-    },
-    {
-      "day1": "revenant",
-      "day2": "crucible_knight",
-      "day3": "libra"
-    },
-    {
-      "day1": "revenant",
-      "day2": "death_bird",
-      "day3": "libra"
-    },
-    {
-      "day1": "revenant",
-      "day2": "godskin_duo",
-      "day3": "libra"
-    },
-    {
-      "day1": "freja",
-      "day2": "crucible_knight",
-      "day3": "libra"
-    },
-    {
-      "day1": "freja",
-      "day2": "death_bird",
-      "day3": "libra"
-    },
-    {
-      "day1": "freja",
-      "day2": "godskin_duo",
-      "day3": "libra"
-    },
-    {
-      "day1": "centipede",
-      "day2": "crucible_knight",
-      "day3": "libra"
-    },
-    {
-      "day1": "centipede",
-      "day2": "death_bird",
-      "day3": "libra"
-    },
-    {
-      "day1": "centipede",
-      "day2": "godskin_duo",
-      "day3": "libra"
-    },
-    {
-      "day1": "o-neil",
-      "day2": "crucible_knight",
-      "day3": "libra"
-    },
-    {
-      "day1": "o-neil",
-      "day2": "death_bird",
-      "day3": "libra"
-    },
-    {
-      "day1": "o-neil",
-      "day2": "godskin_duo",
-      "day3": "libra"
-    },
-    {
-      "day1": "gaping_dragon",
-      "day2": "dragonkin",
-      "day3": "fulghor"
-    },
-    {
-      "day1": "gaping_dragon",
-      "day2": "nameless_king",
-      "day3": "fulghor"
-    },
-    {
-      "day1": "gaping_dragon",
-      "day2": "niall",
-      "day3": "fulghor"
-    },
-    {
-      "day1": "centipede",
-      "day2": "dragonkin",
-      "day3": "fulghor"
-    },
-    {
-      "day1": "centipede",
-      "day2": "nameless_king",
-      "day3": "fulghor"
-    },
-    {
-      "day1": "centipede",
-      "day2": "niall",
-      "day3": "fulghor"
-    },
-    {
-      "day1": "wormface",
-      "day2": "dragonkin",
-      "day3": "fulghor"
-    },
-    {
-      "day1": "wormface",
-      "day2": "nameless_king",
-      "day3": "fulghor"
-    },
-    {
-      "day1": "wormface",
-      "day2": "niall",
-      "day3": "fulghor"
-    },
-    {
-      "day1": "cavalry",
-      "day2": "dragonkin",
-      "day3": "fulghor"
-    },
-    {
-      "day1": "cavalry",
-      "day2": "nameless_king",
-      "day3": "fulghor"
-    },
-    {
-      "day1": "cavalry",
-      "day2": "niall",
-      "day3": "fulghor"
-    },
-    {
-      "day1": "revenant",
-      "day2": "dragonkin",
-      "day3": "fulghor"
-    },
-    {
-      "day1": "revenant",
-      "day2": "nameless_king",
-      "day3": "fulghor"
-    },
-    {
-      "day1": "revenant",
-      "day2": "niall",
-      "day3": "fulghor"
-    },
-    {
-      "day1": "smelter",
-      "day2": "draconic_sentinel",
-      "day3": "caligo"
-    },
-    {
-      "day1": "smelter",
-      "day2": "godskin_duo",
-      "day3": "caligo"
-    },
-    {
-      "day1": "smelter",
-      "day2": "dancer",
-      "day3": "caligo"
-    },
-    {
-      "day1": "tibia",
-      "day2": "draconic_sentinel",
-      "day3": "caligo"
-    },
-    {
-      "day1": "tibia",
-      "day2": "godskin_duo",
-      "day3": "caligo"
-    },
-    {
-      "day1": "tibia",
-      "day2": "dancer",
-      "day3": "caligo"
-    },
-    {
-      "day1": "tree_spirit",
-      "day2": "draconic_sentinel",
-      "day3": "caligo"
-    },
-    {
-      "day1": "tree_spirit",
-      "day2": "godskin_duo",
-      "day3": "caligo"
-    },
-    {
-      "day1": "tree_spirit",
-      "day2": "dancer",
-      "day3": "caligo"
-    },
-    {
-      "day1": "monarch",
-      "day2": "draconic_sentinel",
-      "day3": "caligo"
-    },
-    {
-      "day1": "monarch",
-      "day2": "godskin_duo",
-      "day3": "caligo"
-    },
-    {
-      "day1": "monarch",
-      "day2": "dancer",
-      "day3": "caligo"
-    },
-    {
-      "day1": "freja",
-      "day2": "draconic_sentinel",
-      "day3": "caligo"
-    },
-    {
-      "day1": "freja",
-      "day2": "godskin_duo",
-      "day3": "caligo"
-    },
-    {
-      "day1": "freja",
-      "day2": "dancer",
-      "day3": "caligo"
-    },
-    {
-      "day1": "demihuman",
-      "day2": "tree_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "demihuman",
-      "day2": "fell_omen",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "demihuman",
-      "day2": "ancient_dragon",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "demihuman",
-      "day2": "crucible_knight",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "demihuman",
-      "day2": "niall",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "demihuman",
-      "day2": "dragonkin",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "demihuman",
-      "day2": "draconic_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "demihuman",
-      "day2": "mole",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "demihuman",
-      "day2": "godskin_duo",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "demihuman",
-      "day2": "fallingstar",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "demihuman",
-      "day2": "death_bird",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "demihuman",
-      "day2": "nameless_king",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "demihuman",
-      "day2": "dancer",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "elemer",
-      "day2": "tree_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "elemer",
-      "day2": "fell_omen",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "elemer",
-      "day2": "ancient_dragon",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "elemer",
-      "day2": "crucible_knight",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "elemer",
-      "day2": "niall",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "elemer",
-      "day2": "dragonkin",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "elemer",
-      "day2": "draconic_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "elemer",
-      "day2": "mole",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "elemer",
-      "day2": "godskin_duo",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "elemer",
-      "day2": "fallingstar",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "elemer",
-      "day2": "death_bird",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "elemer",
-      "day2": "nameless_king",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "elemer",
-      "day2": "dancer",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gaping_dragon",
-      "day2": "tree_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gaping_dragon",
-      "day2": "fell_omen",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gaping_dragon",
-      "day2": "ancient_dragon",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gaping_dragon",
-      "day2": "crucible_knight",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gaping_dragon",
-      "day2": "niall",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gaping_dragon",
-      "day2": "dragonkin",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gaping_dragon",
-      "day2": "draconic_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gaping_dragon",
-      "day2": "mole",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gaping_dragon",
-      "day2": "godskin_duo",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gaping_dragon",
-      "day2": "fallingstar",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gaping_dragon",
-      "day2": "death_bird",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gaping_dragon",
-      "day2": "nameless_king",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gaping_dragon",
-      "day2": "dancer",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "wormface",
-      "day2": "tree_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "wormface",
-      "day2": "fell_omen",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "wormface",
-      "day2": "ancient_dragon",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "wormface",
-      "day2": "crucible_knight",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "wormface",
-      "day2": "niall",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "wormface",
-      "day2": "dragonkin",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "wormface",
-      "day2": "draconic_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "wormface",
-      "day2": "mole",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "wormface",
-      "day2": "godskin_duo",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "wormface",
-      "day2": "fallingstar",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "wormface",
-      "day2": "death_bird",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "wormface",
-      "day2": "nameless_king",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "wormface",
-      "day2": "dancer",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "cavalry",
-      "day2": "tree_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "cavalry",
-      "day2": "fell_omen",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "cavalry",
-      "day2": "ancient_dragon",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "cavalry",
-      "day2": "crucible_knight",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "cavalry",
-      "day2": "niall",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "cavalry",
-      "day2": "dragonkin",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "cavalry",
-      "day2": "draconic_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "cavalry",
-      "day2": "mole",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "cavalry",
-      "day2": "godskin_duo",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "cavalry",
-      "day2": "fallingstar",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "cavalry",
-      "day2": "death_bird",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "cavalry",
-      "day2": "nameless_king",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "cavalry",
-      "day2": "dancer",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gargoyle",
-      "day2": "tree_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gargoyle",
-      "day2": "fell_omen",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gargoyle",
-      "day2": "ancient_dragon",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gargoyle",
-      "day2": "crucible_knight",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gargoyle",
-      "day2": "niall",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gargoyle",
-      "day2": "dragonkin",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gargoyle",
-      "day2": "draconic_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gargoyle",
-      "day2": "mole",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gargoyle",
-      "day2": "godskin_duo",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gargoyle",
-      "day2": "fallingstar",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gargoyle",
-      "day2": "death_bird",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gargoyle",
-      "day2": "nameless_king",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "gargoyle",
-      "day2": "dancer",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "freja",
-      "day2": "tree_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "freja",
-      "day2": "fell_omen",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "freja",
-      "day2": "ancient_dragon",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "freja",
-      "day2": "crucible_knight",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "freja",
-      "day2": "niall",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "freja",
-      "day2": "dragonkin",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "freja",
-      "day2": "draconic_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "freja",
-      "day2": "mole",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "freja",
-      "day2": "godskin_duo",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "freja",
-      "day2": "fallingstar",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "freja",
-      "day2": "death_bird",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "freja",
-      "day2": "nameless_king",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "freja",
-      "day2": "dancer",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "centipede",
-      "day2": "tree_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "centipede",
-      "day2": "fell_omen",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "centipede",
-      "day2": "ancient_dragon",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "centipede",
-      "day2": "crucible_knight",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "centipede",
-      "day2": "niall",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "centipede",
-      "day2": "dragonkin",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "centipede",
-      "day2": "draconic_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "centipede",
-      "day2": "mole",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "centipede",
-      "day2": "godskin_duo",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "centipede",
-      "day2": "fallingstar",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "centipede",
-      "day2": "death_bird",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "centipede",
-      "day2": "nameless_king",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "centipede",
-      "day2": "dancer",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "smelter",
-      "day2": "tree_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "smelter",
-      "day2": "fell_omen",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "smelter",
-      "day2": "ancient_dragon",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "smelter",
-      "day2": "crucible_knight",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "smelter",
-      "day2": "niall",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "smelter",
-      "day2": "dragonkin",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "smelter",
-      "day2": "draconic_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "smelter",
-      "day2": "mole",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "smelter",
-      "day2": "godskin_duo",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "smelter",
-      "day2": "fallingstar",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "smelter",
-      "day2": "death_bird",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "smelter",
-      "day2": "nameless_king",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "smelter",
-      "day2": "dancer",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "o-neil",
-      "day2": "tree_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "o-neil",
-      "day2": "fell_omen",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "o-neil",
-      "day2": "ancient_dragon",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "o-neil",
-      "day2": "crucible_knight",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "o-neil",
-      "day2": "niall",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "o-neil",
-      "day2": "dragonkin",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "o-neil",
-      "day2": "draconic_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "o-neil",
-      "day2": "mole",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "o-neil",
-      "day2": "godskin_duo",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "o-neil",
-      "day2": "fallingstar",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "o-neil",
-      "day2": "death_bird",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "o-neil",
-      "day2": "nameless_king",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "o-neil",
-      "day2": "dancer",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tibia",
-      "day2": "tree_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tibia",
-      "day2": "fell_omen",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tibia",
-      "day2": "ancient_dragon",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tibia",
-      "day2": "crucible_knight",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tibia",
-      "day2": "niall",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tibia",
-      "day2": "dragonkin",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tibia",
-      "day2": "draconic_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tibia",
-      "day2": "mole",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tibia",
-      "day2": "godskin_duo",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tibia",
-      "day2": "fallingstar",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tibia",
-      "day2": "death_bird",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tibia",
-      "day2": "nameless_king",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tibia",
-      "day2": "dancer",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tree_spirit",
-      "day2": "tree_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tree_spirit",
-      "day2": "fell_omen",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tree_spirit",
-      "day2": "ancient_dragon",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tree_spirit",
-      "day2": "crucible_knight",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tree_spirit",
-      "day2": "niall",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tree_spirit",
-      "day2": "dragonkin",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tree_spirit",
-      "day2": "draconic_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tree_spirit",
-      "day2": "mole",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tree_spirit",
-      "day2": "godskin_duo",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tree_spirit",
-      "day2": "fallingstar",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tree_spirit",
-      "day2": "death_bird",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tree_spirit",
-      "day2": "nameless_king",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "tree_spirit",
-      "day2": "dancer",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "monarch",
-      "day2": "tree_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "monarch",
-      "day2": "fell_omen",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "monarch",
-      "day2": "ancient_dragon",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "monarch",
-      "day2": "crucible_knight",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "monarch",
-      "day2": "niall",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "monarch",
-      "day2": "dragonkin",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "monarch",
-      "day2": "draconic_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "monarch",
-      "day2": "mole",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "monarch",
-      "day2": "godskin_duo",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "monarch",
-      "day2": "fallingstar",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "monarch",
-      "day2": "death_bird",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "monarch",
-      "day2": "nameless_king",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "monarch",
-      "day2": "dancer",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "revenant",
-      "day2": "tree_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "revenant",
-      "day2": "fell_omen",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "revenant",
-      "day2": "ancient_dragon",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "revenant",
-      "day2": "crucible_knight",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "revenant",
-      "day2": "niall",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "revenant",
-      "day2": "dragonkin",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "revenant",
-      "day2": "draconic_sentinel",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "revenant",
-      "day2": "mole",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "revenant",
-      "day2": "godskin_duo",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "revenant",
-      "day2": "fallingstar",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "revenant",
-      "day2": "death_bird",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "revenant",
-      "day2": "nameless_king",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "revenant",
-      "day2": "dancer",
-      "day3": "heolstor"
-    },
-    {
-      "day1": "demon_duo",
-      "day2": "demon_prince",
-      "day3": "harmonia"
-    },
-    {
-      "day1": "divine_beast",
-      "day2": "mohg",
-      "day3": "harmonia"
-    },
-    {
-      "day1": "bear",
-      "day2": "dancing_lion",
-      "day3": "straghess"
-    },
-    {
-      "day1": "bear",
-      "day2": "artorias",
-      "day3": "straghess"
-    },
-    {
-      "day1": "death_knight",
-      "day2": "dancing_lion",
-      "day3": "straghess"
-    },
-    {
-      "day1": "death_knight",
-      "day2": "artorias",
-      "day3": "straghess"
-    }
+    [
+      "demihuman",
+      "tree_sentinel",
+      "gladius"
+    ],
+    [
+      "demihuman",
+      "fell_omen",
+      "gladius"
+    ],
+    [
+      "elemer",
+      "tree_sentinel",
+      "gladius"
+    ],
+    [
+      "elemer",
+      "fell_omen",
+      "gladius"
+    ],
+    [
+      "gaping_dragon",
+      "ancient_dragon",
+      "adel"
+    ],
+    [
+      "gaping_dragon",
+      "crucible_knight",
+      "adel"
+    ],
+    [
+      "gaping_dragon",
+      "niall",
+      "adel"
+    ],
+    [
+      "wormface",
+      "ancient_dragon",
+      "adel"
+    ],
+    [
+      "wormface",
+      "crucible_knight",
+      "adel"
+    ],
+    [
+      "wormface",
+      "niall",
+      "adel"
+    ],
+    [
+      "cavalry",
+      "ancient_dragon",
+      "adel"
+    ],
+    [
+      "cavalry",
+      "crucible_knight",
+      "adel"
+    ],
+    [
+      "cavalry",
+      "niall",
+      "adel"
+    ],
+    [
+      "gargoyle",
+      "ancient_dragon",
+      "adel"
+    ],
+    [
+      "gargoyle",
+      "crucible_knight",
+      "adel"
+    ],
+    [
+      "gargoyle",
+      "niall",
+      "adel"
+    ],
+    [
+      "freja",
+      "ancient_dragon",
+      "adel"
+    ],
+    [
+      "freja",
+      "crucible_knight",
+      "adel"
+    ],
+    [
+      "freja",
+      "niall",
+      "adel"
+    ],
+    [
+      "centipede",
+      "dragonkin",
+      "gnoster"
+    ],
+    [
+      "centipede",
+      "draconic_sentinel",
+      "gnoster"
+    ],
+    [
+      "centipede",
+      "mole",
+      "gnoster"
+    ],
+    [
+      "smelter",
+      "dragonkin",
+      "gnoster"
+    ],
+    [
+      "smelter",
+      "draconic_sentinel",
+      "gnoster"
+    ],
+    [
+      "smelter",
+      "mole",
+      "gnoster"
+    ],
+    [
+      "o-neil",
+      "dragonkin",
+      "gnoster"
+    ],
+    [
+      "o-neil",
+      "draconic_sentinel",
+      "gnoster"
+    ],
+    [
+      "o-neil",
+      "mole",
+      "gnoster"
+    ],
+    [
+      "tibia",
+      "dragonkin",
+      "gnoster"
+    ],
+    [
+      "tibia",
+      "draconic_sentinel",
+      "gnoster"
+    ],
+    [
+      "tibia",
+      "mole",
+      "gnoster"
+    ],
+    [
+      "tree_spirit",
+      "dragonkin",
+      "gnoster"
+    ],
+    [
+      "tree_spirit",
+      "draconic_sentinel",
+      "gnoster"
+    ],
+    [
+      "tree_spirit",
+      "mole",
+      "gnoster"
+    ],
+    [
+      "gaping_dragon",
+      "tree_sentinel",
+      "maris"
+    ],
+    [
+      "gaping_dragon",
+      "godskin_duo",
+      "maris"
+    ],
+    [
+      "gaping_dragon",
+      "fallingstar",
+      "maris"
+    ],
+    [
+      "wormface",
+      "tree_sentinel",
+      "maris"
+    ],
+    [
+      "wormface",
+      "godskin_duo",
+      "maris"
+    ],
+    [
+      "wormface",
+      "fallingstar",
+      "maris"
+    ],
+    [
+      "monarch",
+      "tree_sentinel",
+      "maris"
+    ],
+    [
+      "monarch",
+      "godskin_duo",
+      "maris"
+    ],
+    [
+      "monarch",
+      "fallingstar",
+      "maris"
+    ],
+    [
+      "smelter",
+      "tree_sentinel",
+      "maris"
+    ],
+    [
+      "smelter",
+      "godskin_duo",
+      "maris"
+    ],
+    [
+      "smelter",
+      "fallingstar",
+      "maris"
+    ],
+    [
+      "gargoyle",
+      "tree_sentinel",
+      "maris"
+    ],
+    [
+      "gargoyle",
+      "godskin_duo",
+      "maris"
+    ],
+    [
+      "gargoyle",
+      "fallingstar",
+      "maris"
+    ],
+    [
+      "tibia",
+      "crucible_knight",
+      "libra"
+    ],
+    [
+      "tibia",
+      "death_bird",
+      "libra"
+    ],
+    [
+      "tibia",
+      "godskin_duo",
+      "libra"
+    ],
+    [
+      "revenant",
+      "crucible_knight",
+      "libra"
+    ],
+    [
+      "revenant",
+      "death_bird",
+      "libra"
+    ],
+    [
+      "revenant",
+      "godskin_duo",
+      "libra"
+    ],
+    [
+      "freja",
+      "crucible_knight",
+      "libra"
+    ],
+    [
+      "freja",
+      "death_bird",
+      "libra"
+    ],
+    [
+      "freja",
+      "godskin_duo",
+      "libra"
+    ],
+    [
+      "centipede",
+      "crucible_knight",
+      "libra"
+    ],
+    [
+      "centipede",
+      "death_bird",
+      "libra"
+    ],
+    [
+      "centipede",
+      "godskin_duo",
+      "libra"
+    ],
+    [
+      "o-neil",
+      "crucible_knight",
+      "libra"
+    ],
+    [
+      "o-neil",
+      "death_bird",
+      "libra"
+    ],
+    [
+      "o-neil",
+      "godskin_duo",
+      "libra"
+    ],
+    [
+      "gaping_dragon",
+      "dragonkin",
+      "fulghor"
+    ],
+    [
+      "gaping_dragon",
+      "nameless_king",
+      "fulghor"
+    ],
+    [
+      "gaping_dragon",
+      "niall",
+      "fulghor"
+    ],
+    [
+      "centipede",
+      "dragonkin",
+      "fulghor"
+    ],
+    [
+      "centipede",
+      "nameless_king",
+      "fulghor"
+    ],
+    [
+      "centipede",
+      "niall",
+      "fulghor"
+    ],
+    [
+      "wormface",
+      "dragonkin",
+      "fulghor"
+    ],
+    [
+      "wormface",
+      "nameless_king",
+      "fulghor"
+    ],
+    [
+      "wormface",
+      "niall",
+      "fulghor"
+    ],
+    [
+      "cavalry",
+      "dragonkin",
+      "fulghor"
+    ],
+    [
+      "cavalry",
+      "nameless_king",
+      "fulghor"
+    ],
+    [
+      "cavalry",
+      "niall",
+      "fulghor"
+    ],
+    [
+      "revenant",
+      "dragonkin",
+      "fulghor"
+    ],
+    [
+      "revenant",
+      "nameless_king",
+      "fulghor"
+    ],
+    [
+      "revenant",
+      "niall",
+      "fulghor"
+    ],
+    [
+      "smelter",
+      "draconic_sentinel",
+      "caligo"
+    ],
+    [
+      "smelter",
+      "godskin_duo",
+      "caligo"
+    ],
+    [
+      "smelter",
+      "dancer",
+      "caligo"
+    ],
+    [
+      "tibia",
+      "draconic_sentinel",
+      "caligo"
+    ],
+    [
+      "tibia",
+      "godskin_duo",
+      "caligo"
+    ],
+    [
+      "tibia",
+      "dancer",
+      "caligo"
+    ],
+    [
+      "tree_spirit",
+      "draconic_sentinel",
+      "caligo"
+    ],
+    [
+      "tree_spirit",
+      "godskin_duo",
+      "caligo"
+    ],
+    [
+      "tree_spirit",
+      "dancer",
+      "caligo"
+    ],
+    [
+      "monarch",
+      "draconic_sentinel",
+      "caligo"
+    ],
+    [
+      "monarch",
+      "godskin_duo",
+      "caligo"
+    ],
+    [
+      "monarch",
+      "dancer",
+      "caligo"
+    ],
+    [
+      "freja",
+      "draconic_sentinel",
+      "caligo"
+    ],
+    [
+      "freja",
+      "godskin_duo",
+      "caligo"
+    ],
+    [
+      "freja",
+      "dancer",
+      "caligo"
+    ],
+    [
+      "demihuman",
+      "tree_sentinel",
+      "heolstor"
+    ],
+    [
+      "demihuman",
+      "fell_omen",
+      "heolstor"
+    ],
+    [
+      "demihuman",
+      "ancient_dragon",
+      "heolstor"
+    ],
+    [
+      "demihuman",
+      "crucible_knight",
+      "heolstor"
+    ],
+    [
+      "demihuman",
+      "niall",
+      "heolstor"
+    ],
+    [
+      "demihuman",
+      "dragonkin",
+      "heolstor"
+    ],
+    [
+      "demihuman",
+      "draconic_sentinel",
+      "heolstor"
+    ],
+    [
+      "demihuman",
+      "mole",
+      "heolstor"
+    ],
+    [
+      "demihuman",
+      "godskin_duo",
+      "heolstor"
+    ],
+    [
+      "demihuman",
+      "fallingstar",
+      "heolstor"
+    ],
+    [
+      "demihuman",
+      "death_bird",
+      "heolstor"
+    ],
+    [
+      "demihuman",
+      "nameless_king",
+      "heolstor"
+    ],
+    [
+      "demihuman",
+      "dancer",
+      "heolstor"
+    ],
+    [
+      "elemer",
+      "tree_sentinel",
+      "heolstor"
+    ],
+    [
+      "elemer",
+      "fell_omen",
+      "heolstor"
+    ],
+    [
+      "elemer",
+      "ancient_dragon",
+      "heolstor"
+    ],
+    [
+      "elemer",
+      "crucible_knight",
+      "heolstor"
+    ],
+    [
+      "elemer",
+      "niall",
+      "heolstor"
+    ],
+    [
+      "elemer",
+      "dragonkin",
+      "heolstor"
+    ],
+    [
+      "elemer",
+      "draconic_sentinel",
+      "heolstor"
+    ],
+    [
+      "elemer",
+      "mole",
+      "heolstor"
+    ],
+    [
+      "elemer",
+      "godskin_duo",
+      "heolstor"
+    ],
+    [
+      "elemer",
+      "fallingstar",
+      "heolstor"
+    ],
+    [
+      "elemer",
+      "death_bird",
+      "heolstor"
+    ],
+    [
+      "elemer",
+      "nameless_king",
+      "heolstor"
+    ],
+    [
+      "elemer",
+      "dancer",
+      "heolstor"
+    ],
+    [
+      "gaping_dragon",
+      "tree_sentinel",
+      "heolstor"
+    ],
+    [
+      "gaping_dragon",
+      "fell_omen",
+      "heolstor"
+    ],
+    [
+      "gaping_dragon",
+      "ancient_dragon",
+      "heolstor"
+    ],
+    [
+      "gaping_dragon",
+      "crucible_knight",
+      "heolstor"
+    ],
+    [
+      "gaping_dragon",
+      "niall",
+      "heolstor"
+    ],
+    [
+      "gaping_dragon",
+      "dragonkin",
+      "heolstor"
+    ],
+    [
+      "gaping_dragon",
+      "draconic_sentinel",
+      "heolstor"
+    ],
+    [
+      "gaping_dragon",
+      "mole",
+      "heolstor"
+    ],
+    [
+      "gaping_dragon",
+      "godskin_duo",
+      "heolstor"
+    ],
+    [
+      "gaping_dragon",
+      "fallingstar",
+      "heolstor"
+    ],
+    [
+      "gaping_dragon",
+      "death_bird",
+      "heolstor"
+    ],
+    [
+      "gaping_dragon",
+      "nameless_king",
+      "heolstor"
+    ],
+    [
+      "gaping_dragon",
+      "dancer",
+      "heolstor"
+    ],
+    [
+      "wormface",
+      "tree_sentinel",
+      "heolstor"
+    ],
+    [
+      "wormface",
+      "fell_omen",
+      "heolstor"
+    ],
+    [
+      "wormface",
+      "ancient_dragon",
+      "heolstor"
+    ],
+    [
+      "wormface",
+      "crucible_knight",
+      "heolstor"
+    ],
+    [
+      "wormface",
+      "niall",
+      "heolstor"
+    ],
+    [
+      "wormface",
+      "dragonkin",
+      "heolstor"
+    ],
+    [
+      "wormface",
+      "draconic_sentinel",
+      "heolstor"
+    ],
+    [
+      "wormface",
+      "mole",
+      "heolstor"
+    ],
+    [
+      "wormface",
+      "godskin_duo",
+      "heolstor"
+    ],
+    [
+      "wormface",
+      "fallingstar",
+      "heolstor"
+    ],
+    [
+      "wormface",
+      "death_bird",
+      "heolstor"
+    ],
+    [
+      "wormface",
+      "nameless_king",
+      "heolstor"
+    ],
+    [
+      "wormface",
+      "dancer",
+      "heolstor"
+    ],
+    [
+      "cavalry",
+      "tree_sentinel",
+      "heolstor"
+    ],
+    [
+      "cavalry",
+      "fell_omen",
+      "heolstor"
+    ],
+    [
+      "cavalry",
+      "ancient_dragon",
+      "heolstor"
+    ],
+    [
+      "cavalry",
+      "crucible_knight",
+      "heolstor"
+    ],
+    [
+      "cavalry",
+      "niall",
+      "heolstor"
+    ],
+    [
+      "cavalry",
+      "dragonkin",
+      "heolstor"
+    ],
+    [
+      "cavalry",
+      "draconic_sentinel",
+      "heolstor"
+    ],
+    [
+      "cavalry",
+      "mole",
+      "heolstor"
+    ],
+    [
+      "cavalry",
+      "godskin_duo",
+      "heolstor"
+    ],
+    [
+      "cavalry",
+      "fallingstar",
+      "heolstor"
+    ],
+    [
+      "cavalry",
+      "death_bird",
+      "heolstor"
+    ],
+    [
+      "cavalry",
+      "nameless_king",
+      "heolstor"
+    ],
+    [
+      "cavalry",
+      "dancer",
+      "heolstor"
+    ],
+    [
+      "gargoyle",
+      "tree_sentinel",
+      "heolstor"
+    ],
+    [
+      "gargoyle",
+      "fell_omen",
+      "heolstor"
+    ],
+    [
+      "gargoyle",
+      "ancient_dragon",
+      "heolstor"
+    ],
+    [
+      "gargoyle",
+      "crucible_knight",
+      "heolstor"
+    ],
+    [
+      "gargoyle",
+      "niall",
+      "heolstor"
+    ],
+    [
+      "gargoyle",
+      "dragonkin",
+      "heolstor"
+    ],
+    [
+      "gargoyle",
+      "draconic_sentinel",
+      "heolstor"
+    ],
+    [
+      "gargoyle",
+      "mole",
+      "heolstor"
+    ],
+    [
+      "gargoyle",
+      "godskin_duo",
+      "heolstor"
+    ],
+    [
+      "gargoyle",
+      "fallingstar",
+      "heolstor"
+    ],
+    [
+      "gargoyle",
+      "death_bird",
+      "heolstor"
+    ],
+    [
+      "gargoyle",
+      "nameless_king",
+      "heolstor"
+    ],
+    [
+      "gargoyle",
+      "dancer",
+      "heolstor"
+    ],
+    [
+      "freja",
+      "tree_sentinel",
+      "heolstor"
+    ],
+    [
+      "freja",
+      "fell_omen",
+      "heolstor"
+    ],
+    [
+      "freja",
+      "ancient_dragon",
+      "heolstor"
+    ],
+    [
+      "freja",
+      "crucible_knight",
+      "heolstor"
+    ],
+    [
+      "freja",
+      "niall",
+      "heolstor"
+    ],
+    [
+      "freja",
+      "dragonkin",
+      "heolstor"
+    ],
+    [
+      "freja",
+      "draconic_sentinel",
+      "heolstor"
+    ],
+    [
+      "freja",
+      "mole",
+      "heolstor"
+    ],
+    [
+      "freja",
+      "godskin_duo",
+      "heolstor"
+    ],
+    [
+      "freja",
+      "fallingstar",
+      "heolstor"
+    ],
+    [
+      "freja",
+      "death_bird",
+      "heolstor"
+    ],
+    [
+      "freja",
+      "nameless_king",
+      "heolstor"
+    ],
+    [
+      "freja",
+      "dancer",
+      "heolstor"
+    ],
+    [
+      "centipede",
+      "tree_sentinel",
+      "heolstor"
+    ],
+    [
+      "centipede",
+      "fell_omen",
+      "heolstor"
+    ],
+    [
+      "centipede",
+      "ancient_dragon",
+      "heolstor"
+    ],
+    [
+      "centipede",
+      "crucible_knight",
+      "heolstor"
+    ],
+    [
+      "centipede",
+      "niall",
+      "heolstor"
+    ],
+    [
+      "centipede",
+      "dragonkin",
+      "heolstor"
+    ],
+    [
+      "centipede",
+      "draconic_sentinel",
+      "heolstor"
+    ],
+    [
+      "centipede",
+      "mole",
+      "heolstor"
+    ],
+    [
+      "centipede",
+      "godskin_duo",
+      "heolstor"
+    ],
+    [
+      "centipede",
+      "fallingstar",
+      "heolstor"
+    ],
+    [
+      "centipede",
+      "death_bird",
+      "heolstor"
+    ],
+    [
+      "centipede",
+      "nameless_king",
+      "heolstor"
+    ],
+    [
+      "centipede",
+      "dancer",
+      "heolstor"
+    ],
+    [
+      "smelter",
+      "tree_sentinel",
+      "heolstor"
+    ],
+    [
+      "smelter",
+      "fell_omen",
+      "heolstor"
+    ],
+    [
+      "smelter",
+      "ancient_dragon",
+      "heolstor"
+    ],
+    [
+      "smelter",
+      "crucible_knight",
+      "heolstor"
+    ],
+    [
+      "smelter",
+      "niall",
+      "heolstor"
+    ],
+    [
+      "smelter",
+      "dragonkin",
+      "heolstor"
+    ],
+    [
+      "smelter",
+      "draconic_sentinel",
+      "heolstor"
+    ],
+    [
+      "smelter",
+      "mole",
+      "heolstor"
+    ],
+    [
+      "smelter",
+      "godskin_duo",
+      "heolstor"
+    ],
+    [
+      "smelter",
+      "fallingstar",
+      "heolstor"
+    ],
+    [
+      "smelter",
+      "death_bird",
+      "heolstor"
+    ],
+    [
+      "smelter",
+      "nameless_king",
+      "heolstor"
+    ],
+    [
+      "smelter",
+      "dancer",
+      "heolstor"
+    ],
+    [
+      "o-neil",
+      "tree_sentinel",
+      "heolstor"
+    ],
+    [
+      "o-neil",
+      "fell_omen",
+      "heolstor"
+    ],
+    [
+      "o-neil",
+      "ancient_dragon",
+      "heolstor"
+    ],
+    [
+      "o-neil",
+      "crucible_knight",
+      "heolstor"
+    ],
+    [
+      "o-neil",
+      "niall",
+      "heolstor"
+    ],
+    [
+      "o-neil",
+      "dragonkin",
+      "heolstor"
+    ],
+    [
+      "o-neil",
+      "draconic_sentinel",
+      "heolstor"
+    ],
+    [
+      "o-neil",
+      "mole",
+      "heolstor"
+    ],
+    [
+      "o-neil",
+      "godskin_duo",
+      "heolstor"
+    ],
+    [
+      "o-neil",
+      "fallingstar",
+      "heolstor"
+    ],
+    [
+      "o-neil",
+      "death_bird",
+      "heolstor"
+    ],
+    [
+      "o-neil",
+      "nameless_king",
+      "heolstor"
+    ],
+    [
+      "o-neil",
+      "dancer",
+      "heolstor"
+    ],
+    [
+      "tibia",
+      "tree_sentinel",
+      "heolstor"
+    ],
+    [
+      "tibia",
+      "fell_omen",
+      "heolstor"
+    ],
+    [
+      "tibia",
+      "ancient_dragon",
+      "heolstor"
+    ],
+    [
+      "tibia",
+      "crucible_knight",
+      "heolstor"
+    ],
+    [
+      "tibia",
+      "niall",
+      "heolstor"
+    ],
+    [
+      "tibia",
+      "dragonkin",
+      "heolstor"
+    ],
+    [
+      "tibia",
+      "draconic_sentinel",
+      "heolstor"
+    ],
+    [
+      "tibia",
+      "mole",
+      "heolstor"
+    ],
+    [
+      "tibia",
+      "godskin_duo",
+      "heolstor"
+    ],
+    [
+      "tibia",
+      "fallingstar",
+      "heolstor"
+    ],
+    [
+      "tibia",
+      "death_bird",
+      "heolstor"
+    ],
+    [
+      "tibia",
+      "nameless_king",
+      "heolstor"
+    ],
+    [
+      "tibia",
+      "dancer",
+      "heolstor"
+    ],
+    [
+      "tree_spirit",
+      "tree_sentinel",
+      "heolstor"
+    ],
+    [
+      "tree_spirit",
+      "fell_omen",
+      "heolstor"
+    ],
+    [
+      "tree_spirit",
+      "ancient_dragon",
+      "heolstor"
+    ],
+    [
+      "tree_spirit",
+      "crucible_knight",
+      "heolstor"
+    ],
+    [
+      "tree_spirit",
+      "niall",
+      "heolstor"
+    ],
+    [
+      "tree_spirit",
+      "dragonkin",
+      "heolstor"
+    ],
+    [
+      "tree_spirit",
+      "draconic_sentinel",
+      "heolstor"
+    ],
+    [
+      "tree_spirit",
+      "mole",
+      "heolstor"
+    ],
+    [
+      "tree_spirit",
+      "godskin_duo",
+      "heolstor"
+    ],
+    [
+      "tree_spirit",
+      "fallingstar",
+      "heolstor"
+    ],
+    [
+      "tree_spirit",
+      "death_bird",
+      "heolstor"
+    ],
+    [
+      "tree_spirit",
+      "nameless_king",
+      "heolstor"
+    ],
+    [
+      "tree_spirit",
+      "dancer",
+      "heolstor"
+    ],
+    [
+      "monarch",
+      "tree_sentinel",
+      "heolstor"
+    ],
+    [
+      "monarch",
+      "fell_omen",
+      "heolstor"
+    ],
+    [
+      "monarch",
+      "ancient_dragon",
+      "heolstor"
+    ],
+    [
+      "monarch",
+      "crucible_knight",
+      "heolstor"
+    ],
+    [
+      "monarch",
+      "niall",
+      "heolstor"
+    ],
+    [
+      "monarch",
+      "dragonkin",
+      "heolstor"
+    ],
+    [
+      "monarch",
+      "draconic_sentinel",
+      "heolstor"
+    ],
+    [
+      "monarch",
+      "mole",
+      "heolstor"
+    ],
+    [
+      "monarch",
+      "godskin_duo",
+      "heolstor"
+    ],
+    [
+      "monarch",
+      "fallingstar",
+      "heolstor"
+    ],
+    [
+      "monarch",
+      "death_bird",
+      "heolstor"
+    ],
+    [
+      "monarch",
+      "nameless_king",
+      "heolstor"
+    ],
+    [
+      "monarch",
+      "dancer",
+      "heolstor"
+    ],
+    [
+      "revenant",
+      "tree_sentinel",
+      "heolstor"
+    ],
+    [
+      "revenant",
+      "fell_omen",
+      "heolstor"
+    ],
+    [
+      "revenant",
+      "ancient_dragon",
+      "heolstor"
+    ],
+    [
+      "revenant",
+      "crucible_knight",
+      "heolstor"
+    ],
+    [
+      "revenant",
+      "niall",
+      "heolstor"
+    ],
+    [
+      "revenant",
+      "dragonkin",
+      "heolstor"
+    ],
+    [
+      "revenant",
+      "draconic_sentinel",
+      "heolstor"
+    ],
+    [
+      "revenant",
+      "mole",
+      "heolstor"
+    ],
+    [
+      "revenant",
+      "godskin_duo",
+      "heolstor"
+    ],
+    [
+      "revenant",
+      "fallingstar",
+      "heolstor"
+    ],
+    [
+      "revenant",
+      "death_bird",
+      "heolstor"
+    ],
+    [
+      "revenant",
+      "nameless_king",
+      "heolstor"
+    ],
+    [
+      "revenant",
+      "dancer",
+      "heolstor"
+    ],
+    [
+      "demon_duo",
+      "demon_prince",
+      "harmonia"
+    ],
+    [
+      "divine_beast",
+      "mohg",
+      "harmonia"
+    ],
+    [
+      "bear",
+      "dancing_lion",
+      "straghess"
+    ],
+    [
+      "bear",
+      "artorias",
+      "straghess"
+    ],
+    [
+      "death_knight",
+      "dancing_lion",
+      "straghess"
+    ],
+    [
+      "death_knight",
+      "artorias",
+      "straghess"
+    ]
   ]
 }
