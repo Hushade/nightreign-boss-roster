@@ -14,21 +14,6 @@ body {
     margin: 0;
 }
 
-
-header {
-    display: none;
-}
-
-@media (hover:hover) and (min-width:768px) {
-    header {
-        display: block;
-        width: 100%;
-        text-align: center;
-        padding: 4px;
-        background: #181818;
-    }
-}
-
 .layout {
     display: grid;
     grid-template-columns: 1fr;
